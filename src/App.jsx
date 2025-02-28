@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import Header from './Header'
+import Formulario from './Formulario'
+import Tarea from './Tareas'
 
 const App = () => {
   const [Contador, setContador] = useState(0)
@@ -13,6 +15,8 @@ const App = () => {
   return (
     <>
     <Header />
+    <Formulario />
+    <Tarea />
     </>
   )
 }

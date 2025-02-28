@@ -1,12 +1,19 @@
+import React from 'react'
+import { useState } from 'react'
 
-
-function App() {
-
-
+const App = () => {
+  const [Contador, setContador] = useState(0)
+  const aumnentarContador = () => {
+    setContador(Contador + 1)
+  }
+  const disminuirContador = () => {
+    setContador(Contador - 1)
+  }
   return (
-    <h1>Hola mundo </h1>
+    <>
+    
+    </>
   )
-  
 }
 
 export default App

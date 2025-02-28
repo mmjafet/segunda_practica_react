@@ -2,7 +2,12 @@ import React from 'react'
 
 const Formulario = () => {
   return (
-    <div>Formulario</div>
+    <div>
+        <label >Tarea</label>
+        <input type="text" placeholder='Hacer Tarea' />
+        <label htmlFor="Descripcion"></label>
+        
+    </div>
   )
 }
 
